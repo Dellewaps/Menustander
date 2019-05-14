@@ -1,0 +1,122 @@
+p{
+  font-size: 18px;
+}
+
+.jumbotron{
+  text-align: center;
+}
+
+  
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+    color: white;
+    font-size: 14px;
+    display: contents !important;
+  }
+
+  .container{
+    display: contents !important;
+  }
+  
+  .dropdown {  
+    float: inherit;
+    padding-top: 8px;
+  }
+  
+  .btn.dropdown-toggle {
+    background-color: #222;
+    color: #9d9d9d;
+  }
+  
+  .caret {
+    color: #9d9d9d;
+  }
+  
+  .dropdown-menu.show {
+    background-color: #F4AC13;
+    min-width: 90px;
+    max-width: 160px;
+  }
+  
+  .dropdown-menu.show a {
+  color: white;
+  }
+
+  .content{
+    text-align: center;
+    min-width: 100%;
+  }
+
+  .selectbox{
+    padding: 20px;
+  }
+
+/* CSS for image */
+  .imageleft{
+    float: right;
+  }
+
+  .imageright{
+    float: left;
+  }
+
+  .img{
+    height: 200px;
+    width: 350px;
+  }
+
+
+  /* CSS for the daily page*/
+  .dayhead{
+    max-width: 250px;
+  }
+
+  .weekday{
+    max-width: 250px;
+  }
+
+  .dishtoday{
+    max-width: 250px;
+  }
+
+  .priceleft{
+    float: right;
+  }
+  
+  .dishdes{
+    max-width: 250px;
+  }
+
+  /* CSS for the week menu page*/
+  .head-line {
+    text-align: center;
+    }
+    
+    #col-right {
+    text-align: right;
+    }
+    
+    .days-left{
+    padding-bottom: 15rem;
+    
+    }
+    
+    .days-right{
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+    }
+    
+    .dayrow{
+      display: flex;
+    }
+    
+    .daydish{
+      flex: 50%;
+      padding: 10px;  
+    }
+    
+    .dayhead{
+      text-align: center;
+    }
